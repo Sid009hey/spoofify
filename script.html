@@ -1,34 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-	 <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300&display=swap" rel="stylesheet">
-    </style>
-    <title>Wirefade | Home</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-    <header>
-      <div class="main">
-      <div class="logo">
-        <h2>Nothing<h2>
-      </div>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">More</a></li>
-      </ul>
-      </div>
-      <div class="title">
-       <p>Nothing Phone 1</p>
-      </div>
-	  <div class="subtitle">
-	  <h1>Pure Instinct.</h1>
-	  </div>
-       <div class="button">
-       <a href="#" class="btn">Pre-Order Now</a>
-      </div>
-    <header> 
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Add a Song</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Add a Song</h1>
+    <form id="add-song-form">
+      <label for="title-input">Title:</label>
+      <input type="text" id="title-input" name="title">
+      <br>
+      <label for="album-input">Album:</label>
+      <input type="text" id="album-input" name="album">
+      <br>
+      <label for="link-input">Link:</label>
+      <input type="text" id="link-input" name="link">
+      <br>
+      <input type="submit" value="Add Song">
+    </form>
+    <script src="addSong.js"></script>
+  </body>
 </html>
